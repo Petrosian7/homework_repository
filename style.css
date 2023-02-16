@@ -22,17 +22,17 @@ ul {
 }
 
 .menu  a {
-    background: #410505;
-    color: white;
+    background: #ff0000;
+    color: rgb(0, 0, 0);
     padding: 10px;
     display: block;
-    width: 80px;
+    width: 120px;
     margin: 0;
     text-align: center;
 }
 
 .menu a:hover {
-    background: #8f3a3a;
+    background: #ef3d3d;
 }
 
 .menu {
@@ -57,11 +57,7 @@ ul {
 }
 
 .list_js a {
-    background: #652525;
-}
-
-.main_js {
-    position: relative;
+    background: #900505;
 }
 
 .list_js {
@@ -72,7 +68,7 @@ ul {
 }
 
 .list_js a:hover {
-    background: #410505;
+    background: #e10f0f;
 }
 
 .main_js:hover .list_js {
@@ -80,7 +76,7 @@ ul {
 }
 
 .list_node a {
-    background-color: rgb(46, 4, 4);
+    background-color: rgb(211, 14, 14);
 }
 
 .main_node {
@@ -95,9 +91,31 @@ ul {
 }
 
 .list_node a:hover {
-    background-color: rgb(231, 134, 134);
+    background-color: rgb(246, 65, 65);
 }
 
 .main_node:hover .list_node {
+    display: block;
+}
+
+.main_about {
+    position: relative;
+}
+
+.list_about {
+    position: absolute;
+    display: none;
+}
+
+.list_about a {
+    background-color: rgb(46, 4, 4);
+    color: white;
+}
+
+.list_about a:hover {
+    background-color: rgb(231, 134, 134);
+}
+
+.main_about:hover .list_about {
     display: block;
 }
